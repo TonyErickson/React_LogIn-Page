@@ -11,3 +11,80 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* styling for the navbar on the top of the page */
+.navbar{
+  color:rgb(0, 0, 0);
+  font-size: 20px;
+  background-color: rgb(114, 232, 253);
+  list-style-type: none;
+  margin: 1em;
+  padding: 0;
+  border: 3px solid black; 
+  display:flex;
+  justify-content:space-between;
+  width: 70%;
+  position: fixed;
+  left: 15%;
+
+
+  
+}
+/* styling for the button */
+button {
+  background-color: #1b61e4; 
+  color: white;
+  padding: 11px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 15px;
+  width: 40%;
+}
+/* styling for the 'Username' and Password text */
+label {
+  color: #060613;
+  font-weight: bold;
+  display: block;
+  float: right;
+}
+/* styling the borders around the text fields */
+input {
+  border: 2px solid #000000;
+}
+/* styling for the Log In text */
+h3 {
+  display: block;
+  font-size: 1.30em;
+  /* margin-top: 1em; */
+  /* margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em; */
+  font-weight: bold;
+  
+}
+.card {
+  border: 2px solid black;
+  width: 10cm;
+  padding: 9px;
+  justify-content: center;
+  background-color: rgb(114, 232, 253);
+}
+
+/* styling for the  div on the log in page (h3, username, password, and botton) */
+.container-box{
+  text-align: center;
+  position: fixed;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+.Password {
+  position: fixed;
+  left: 20%;
+}
+.Username {
+  position: fixed;
+  left: 19%;
+}
